@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+#title {
+    color: rgb(250, 250, 250);
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+h2 {
+    transition: transform 0.2s ease;
+}
+
+h2:hover {
+    transform: scale(1.15);
+}
+
+
+body {
+    background: linear-gradient(to right top, #9296b9, #422a32);
+    font-family: Georgia;
+
+    margin: 10px;
+    padding: 10px;
+
+
+}
+
+.Outerbox {
+
+    background: linear-gradient(to right top, #747792, #5e2c3c);
+    border-radius: 20px;
+    padding: 30px;
+}
+
+textarea {
+    margin: 10px 20px;
+    padding: 8px;
+    line-height: 1.4 px;
+    box-sizing: border-box;
+    width: 225px;
+    height: 225px;
+    border: 2px solid white;
+    border-radius: 15px;
+
+    letter-spacing: 0.3px;
+    line-height: 1.6;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 1.2);
+}
+
+textarea,
+.imgbg {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+textarea:hover,
+.imgbg:hover {
+    transform: scale(0.95);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 10);
+}
+
+
+#Btn {
+    margin-top: 5px;
+    margin-left: 210px;
+
+    border: 1px solid grey;
+    background-color: rgb(45, 5, 45);
+    border-radius: 5px;
+    color: aliceblue;
+
+    padding: 3px;
+    height: 30px;
+    width: 80px;
+
+    font-weight: 600;
+}
+
+.result {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.Stackbox {
+    background-color: aliceblue;
+
+    display: flex;
+    justify-content: space-around;
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 20);
+    display: inline-block;
+
+    border-radius: 4px;
+
+    margin: 20px;
+    padding: 8px 10px;
+
+    width: 300px;
+    height: 200px;
+
+    overflow: auto;
+    resize: none;
+}
+
+.Stackbox h4 {
+    margin: 6px;
+}
+
+.Stackbox p {
+    white-space: pre-wrap;
+}
+
+.DeleteBtn {
+
+    border: 1px solid grey;
+    background-color: rgb(45, 5, 45);
+    border-radius: 5px;
+    color: aliceblue;
+
+    margin-top: 90px;
+    margin-left: 210px;
+
+    padding: 3px;
+    height: 30px;
+    width: 80px;
+
+    font-weight: 600;
+}
+
+.DeleteBtn:hover {
+    background-color: rgb(195, 145, 195);
+    color: black;
+    border: 1px solid black;
+}
+
+#Btn:hover {
+    background-color: rgb(195, 145, 195);
+    color: black;
+    border: 1px solid black;
+}
+
+.box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.imgbg {
+
+
+    background-color: white;
+    border-radius: 12px;
+
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 1);
+    height: fit-content;
+}
+
+
+.calender-img {
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+
+}
+
+#welcome {
+
+    letter-spacing: 3px;
+
+    font-size: 40px;
+    font-family: fantasy;
+    text-align: center;
+    color: rgb(59, 7, 59);
+}
