@@ -1,4 +1,4 @@
-<img width="1363" height="639" alt="image" src="https://github.com/user-attachments/assets/759bf8cf-aebb-4a29-804c-b88f815a1d9e" /># To-Do Partner 📝
+# To-Do Partner 📝
 
 To-Do Partner is a simple task management web application built using HTML, CSS, and JavaScript.  
 It allows users to quickly write tasks, save them, and manage them easily.
